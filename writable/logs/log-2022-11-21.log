@@ -1,0 +1,274 @@
+CRITICAL - 2022-11-21 19:50:50 --> Invalid file: Libros/listars.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Libros/listars.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Libros/listars', [], true)
+ 3 APPPATH\Controllers\Libros.php(9): view('Libros/listars')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Libros->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 19:51:22 --> Invalid file: Libros/listars.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Libros/listars.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Libros/listars', [], true)
+ 3 APPPATH\Controllers\Libros.php(9): view('Libros/listars')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Libros->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 20:42:00 --> Undefined array key "id"
+in APPPATH\Views\LIbros\listar.php on line 25.
+ 1 APPPATH\Views\LIbros\listar.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\LIbros\\listar.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\LIbros\\listar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Libros/listar', [], true)
+ 5 APPPATH\Controllers\Libros.php(11): view('Libros/listar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Libros->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 20:43:24 --> Undefined array key "id"
+in APPPATH\Views\LIbros\listar.php on line 25.
+ 1 APPPATH\Views\LIbros\listar.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\LIbros\\listar.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\LIbros\\listar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Libros/listar', [], true)
+ 5 APPPATH\Controllers\Libros.php(11): view('Libros/listar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Libros->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 20:44:47 --> Undefined array key "id"
+in APPPATH\Views\LIbros\listar.php on line 25.
+ 1 APPPATH\Views\LIbros\listar.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\LIbros\\listar.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\LIbros\\listar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Libros/listar', [], true)
+ 5 APPPATH\Controllers\Libros.php(11): view('Libros/listar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Libros->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 20:44:53 --> Undefined array key ""
+in APPPATH\Views\LIbros\listar.php on line 25.
+ 1 APPPATH\Views\LIbros\listar.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key ""', 'APPPATH\\Views\\LIbros\\listar.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\LIbros\\listar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Libros/listar', [], true)
+ 5 APPPATH\Controllers\Libros.php(11): view('Libros/listar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Libros->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 20:45:04 --> Undefined array key "imagen"
+in APPPATH\Views\LIbros\listar.php on line 26.
+ 1 APPPATH\Views\LIbros\listar.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "imagen"', 'APPPATH\\Views\\LIbros\\listar.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\LIbros\\listar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Libros/listar', [], true)
+ 5 APPPATH\Controllers\Libros.php(11): view('Libros/listar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Libros->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 20:46:20 --> Undefined array key ""
+in APPPATH\Views\LIbros\listar.php on line 25.
+ 1 APPPATH\Views\LIbros\listar.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key ""', 'APPPATH\\Views\\LIbros\\listar.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\LIbros\\listar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Libros/listar', [], true)
+ 5 APPPATH\Controllers\Libros.php(11): view('Libros/listar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Libros->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 20:50:07 --> Undefined array key "id"
+in APPPATH\Views\LIbros\listar.php on line 25.
+ 1 APPPATH\Views\LIbros\listar.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\LIbros\\listar.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\LIbros\\listar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Libros/listar', [], true)
+ 5 APPPATH\Controllers\Libros.php(11): view('Libros/listar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Libros->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 20:52:54 --> Undefined array key "id"
+in APPPATH\Views\LIbros\listar.php on line 25.
+ 1 APPPATH\Views\LIbros\listar.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\LIbros\\listar.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\LIbros\\listar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Libros/listar', [], true)
+ 5 APPPATH\Controllers\Libros.php(11): view('Libros/listar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Libros->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 20:52:55 --> Undefined array key "id"
+in APPPATH\Views\LIbros\listar.php on line 25.
+ 1 APPPATH\Views\LIbros\listar.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\LIbros\\listar.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\LIbros\\listar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Libros/listar', [], true)
+ 5 APPPATH\Controllers\Libros.php(11): view('Libros/listar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Libros->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 20:52:56 --> Undefined array key "id"
+in APPPATH\Views\LIbros\listar.php on line 25.
+ 1 APPPATH\Views\LIbros\listar.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\LIbros\\listar.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\LIbros\\listar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Libros/listar', [], true)
+ 5 APPPATH\Controllers\Libros.php(11): view('Libros/listar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Libros->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 20:52:56 --> Undefined array key "id"
+in APPPATH\Views\LIbros\listar.php on line 25.
+ 1 APPPATH\Views\LIbros\listar.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\LIbros\\listar.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\LIbros\\listar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Libros/listar', [], true)
+ 5 APPPATH\Controllers\Libros.php(11): view('Libros/listar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Libros->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 20:52:56 --> Undefined array key "id"
+in APPPATH\Views\LIbros\listar.php on line 25.
+ 1 APPPATH\Views\LIbros\listar.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\LIbros\\listar.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\LIbros\\listar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Libros/listar', [], true)
+ 5 APPPATH\Controllers\Libros.php(11): view('Libros/listar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Libros->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 20:53:29 --> Undefined array key "Id"
+in APPPATH\Views\LIbros\listar.php on line 25.
+ 1 APPPATH\Views\LIbros\listar.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Id"', 'APPPATH\\Views\\LIbros\\listar.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\LIbros\\listar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Libros/listar', [], true)
+ 5 APPPATH\Controllers\Libros.php(11): view('Libros/listar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Libros->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 21:28:16 --> Undefined variable $libros
+in APPPATH\Views\LIbros\listar.php on line 11.
+ 1 APPPATH\Views\LIbros\listar.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $libros', 'APPPATH\\Views\\LIbros\\listar.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\LIbros\\listar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Libros/listar', [], true)
+ 5 APPPATH\Controllers\Libros.php(13): view('Libros/listar')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Libros->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 21:31:27 --> Undefined variable $cabecera
+in APPPATH\Views\LIbros\listar.php on line 1.
+ 1 APPPATH\Views\LIbros\listar.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cabecera', 'APPPATH\\Views\\LIbros\\listar.php', 1)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\LIbros\\listar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Libros/listar', [], true)
+ 5 APPPATH\Controllers\Libros.php(13): view('Libros/listar')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Libros->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 22:07:46 --> Array to string conversion
+in APPPATH\Controllers\Libros.php on line 21.
+ 1 APPPATH\Controllers\Libros.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Libros.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Libros->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 22:48:02 --> Undefined property: App\Controllers\Libros::$IncomingRequest
+in APPPATH\Controllers\Libros.php on line 21.
+ 1 APPPATH\Controllers\Libros.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Libros::$IncomingRequest', 'APPPATH\\Controllers\\Libros.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Libros->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 23:14:47 --> Undefined array key "id"
+in APPPATH\Views\LIbros\listar.php on line 19.
+ 1 APPPATH\Views\LIbros\listar.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\LIbros\\listar.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\LIbros\\listar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Libros/listar', [], true)
+ 5 APPPATH\Controllers\Libros.php(13): view('Libros/listar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Libros->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 23:18:58 --> syntax error, unexpected token "echo", expecting "function" or "const"
+in APPPATH\Controllers\Libros.php on line 35.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Libros.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Libros')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Libros')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Libros', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 23:27:23 --> Undefined array key "imagen"
+in APPPATH\Controllers\Libros.php on line 37.
+ 1 APPPATH\Controllers\Libros.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "imagen"', 'APPPATH\\Controllers\\Libros.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Libros->borrar('3')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 23:27:44 --> Undefined property: App\Controllers\Libros::$responce
+in APPPATH\Controllers\Libros.php on line 41.
+ 1 APPPATH\Controllers\Libros.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Libros::$responce', 'APPPATH\\Controllers\\Libros.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Libros->borrar('3')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 23:28:08 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Libros.php on line 37.
+ 1 APPPATH\Controllers\Libros.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Libros.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Libros->borrar('3')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 23:29:36 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Libros.php on line 37.
+ 1 APPPATH\Controllers\Libros.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Libros.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Libros->borrar('3')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 23:29:37 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Libros.php on line 37.
+ 1 APPPATH\Controllers\Libros.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Libros.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Libros->borrar('3')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 23:30:12 --> Undefined array key "imagen"
+in APPPATH\Controllers\Libros.php on line 37.
+ 1 APPPATH\Controllers\Libros.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "imagen"', 'APPPATH\\Controllers\\Libros.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Libros->borrar('2')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 23:30:16 --> Undefined array key "imagen"
+in APPPATH\Controllers\Libros.php on line 37.
+ 1 APPPATH\Controllers\Libros.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "imagen"', 'APPPATH\\Controllers\\Libros.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Libros->borrar('2')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 23:30:23 --> unlink(../public/uploads/imagenNode.jpg): No such file or directory
+in APPPATH\Controllers\Libros.php on line 38.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(../public/uploads/imagenNode.jpg): No such file or directory', 'APPPATH\\Controllers\\Libros.php', 38)
+ 2 APPPATH\Controllers\Libros.php(38): unlink('../public/uploads/imagenNode.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Libros->borrar('2')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

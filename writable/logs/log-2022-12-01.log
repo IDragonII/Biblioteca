@@ -1,0 +1,22 @@
+CRITICAL - 2022-12-01 16:33:29 --> Undefined variable $cabecera
+in APPPATH\Views\LIbros\crear.php on line 1.
+ 1 APPPATH\Views\LIbros\crear.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cabecera', 'APPPATH\\Views\\LIbros\\crear.php', 1)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\LIbros\\crear.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Libros/crear', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('Libros/crear')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-01 16:33:34 --> Undefined variable $cabecera
+in APPPATH\Views\LIbros\crear.php on line 1.
+ 1 APPPATH\Views\LIbros\crear.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cabecera', 'APPPATH\\Views\\LIbros\\crear.php', 1)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\LIbros\\crear.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Libros/crear', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('Libros/crear')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
