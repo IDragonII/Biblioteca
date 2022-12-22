@@ -1,3 +1,10 @@
+#Instalacion de base de datos
+1. Abre el xammp, activa el Apache y MySQL.
+2. Ve a xammp y presiona admin de MySQL y seras dirigido a la pagina de phpmyadmin.
+3. Crear una nueva base con el nombre de "biblioteca"
+4. Una ves creado ve a impportar la tabla que esta en la carpeta base de datos llamada "biblioteca.sql"
+5. Una ves importado la base de datos ya se podra usar.
+
 # CodeIgniter 4 Framework
 
 ## What is CodeIgniter?
